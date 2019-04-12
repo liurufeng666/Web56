@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .tit{
     /* 可设置一种，也可设置多种，中间用逗号隔开
     当前面的字体不存在的时候，就用后面的
@@ -14,4 +17,22 @@
 .p{
     font-size: 20px;
     text-indent: 2em;
+    /* 设置行高，就是文字在这个高度内垂直居中 */
+    line-height: 40px;
+}
+/* line-height */
+.nav{
+    width:200px;
+    height:100px;
+    text-align: center;
+    line-height: 50px;
+    color:#ccc;
+    background:rgb(255,255,0);
+    /* border: 3px solid red; */
+}
+.pre{
+    text-decoration: line-through;
+}
+.love{
+    text-transform: capitalize;
 }
