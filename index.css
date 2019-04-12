@@ -1,5 +1,9 @@
 .tit{
+    /* 可设置一种，也可设置多种，中间用逗号隔开
+    当前面的字体不存在的时候，就用后面的
+    */
     font-family: '微软雅黑';
+    font-style: oblique;
 }
 .title{
     font-family: '宋体';
