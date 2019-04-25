@@ -1,0 +1,25 @@
+/* 选择器：3种基本选择器； */
+/* 后代选择器 */
+.list li{
+
+}
+
+p.txt{
+    width:200px;
+    height:100px;
+    line-height: 100px;
+    font-size: 20px;
+    color:red;
+    text-align: center;
+}
+.txt:hover{
+    background:blue;
+    color:#fff;
+}
+/* 伪类选择器 */
+.baidu:link{
+    color:red;
+}
+.baidu:hover{
+    color:yellow;
+}
