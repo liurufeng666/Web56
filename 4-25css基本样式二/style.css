@@ -1,7 +1,15 @@
 /* 选择器：3种基本选择器； */
 /* 后代选择器 */
+/* hover visited first-child last-child (link,active,focus) */
+/* first-child */
 .list li{
-
+    color: blue;
+}
+.list li:first-child{
+    color:red;
+}
+.list li:last-child{
+    color: yellow;
 }
 
 p.txt{
@@ -17,9 +25,23 @@ p.txt{
     color:#fff;
 }
 /* 伪类选择器 */
+/* 四个样式的优先级一样，所以注意先后顺序 */
+/* visited一定在hover和active之前 */
 .baidu:link{
     color:red;
+}
+.baidu:visited{
+    color:#ccc;
 }
 .baidu:hover{
     color:yellow;
 }
+.baidu:active{
+    color:blue;
+}
+/* focus */
+.user:focus{
+    border:4px solid red;
+}
+
+/* 背景 */
