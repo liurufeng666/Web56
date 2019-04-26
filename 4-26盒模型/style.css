@@ -1,0 +1,32 @@
+/* 重置样式 */
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.list li{
+    width: 400px;
+    margin-top: 30px;
+    border: 1px dashed gray; 
+}
+.list li:first-child{
+    /* padding:20px 0 20px 50px; */
+    /* width:350px; */
+    text-indent: 50px;
+    border: 1px dashed gray;
+}
+/* 行内元素和块级元素 */
+.link{
+    border:1px solid red;
+    padding: 20px;
+    margin-left:20px;
+    display: none;
+    width: 100px;
+    height: 100px;
+}

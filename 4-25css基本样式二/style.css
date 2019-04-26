@@ -67,5 +67,5 @@ p.txt{
     background-repeat: no-repeat;
     background-position: center; */
     /* 综合写法 */
-    background:red url(image/bg.jpg) no-repeat center;
+    background:url(image/bg.jpg) no-repeat center;
 }
