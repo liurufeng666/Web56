@@ -19,16 +19,46 @@ li{
 }
 a{
     text-decoration: none;
+    /* color:#000; */
 }
-
+.nav{
+    width: 1100px;
+    /* 块元素水平居中 */
+    margin: 0 auto;
+}
 .nav li{
     width: 110px;
     height: 50px;
     display: inline-block;
+    vertical-align: top;
     text-align: center;
     line-height: 50px;
 }
+/* a标签的字体颜色只能给a标签加 */
+.nav li a{
+    font-size: 15px;
+    color: #000;
+}
 /* 伪类选择器 */
-.nav li:hover{
+/* 后代选择器 */
+/* 子选择器-第一标签 */
+ul.nav>li:hover{
     background: blue;
+}
+.nav>li:hover >a{
+    color: #fff;
+}
+.nav>li:hover .hide{
+    display: block;
+}
+
+.hide{
+    display: none;
+    background: blue;
+}
+.nav .hide a{
+    color: #fff;
+}
+.hide li:hover{
+    background: lightblue;
 }
