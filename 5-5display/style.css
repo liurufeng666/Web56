@@ -37,8 +37,9 @@ a{
     margin-top: 15px;
 }
 .search{
-    display: inline-block;
-    margin-left: 600px;
+    /* display: inline-block;
+    margin-left: 600px; */
+    float: right;
 }
 
 
