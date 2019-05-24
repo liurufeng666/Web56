@@ -1,0 +1,35 @@
+/* 重置样式 */
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* 行内元素：a span em i 不能直接设置宽高 */
+.baidu{
+    width: 1000px;
+    display: block;
+    background-color: red;
+}
+/* 行内元素：input img textarea是特殊的行内元素（“行内块元素”）*/
+/* 可替换元素，内置了宽高属性 */
+.user,.pwd{
+    width:200px;
+    height: 100px;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border: 3px solid red;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #ccc;
+}
